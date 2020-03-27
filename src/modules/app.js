@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { NewPost } from './new-post';
+
 export const App = () => {
-  return <h1>App</h1>;
+  return <NewPost />;
 };
